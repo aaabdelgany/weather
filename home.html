@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-grey-light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Weather</title>
+    <script src='main.js'> </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        input{
+            text-align:center;
+        }
+    </style>
+</head>
+<body class='has-background-grey-light'>
+    
+<section class="hero">
+    <div class="hero-body">
+      <p class="title">Weather</p>
+      <p class="subtitle">Abdus weather app</p>
+    </div>
+  </section>
+
+<section>
+    <container>
+        <div class="column is-one-third is-offset-4">
+            <div class="card has-background-primary">
+                <div class="card-content">
+                    Enter the city,state, and country of the area that you want to get weather for!
+
+                </div>
+                <footer class="card-footer">
+                    <div class="card-footer-item"><input class="input" id="city" type="text" placeholder="City"></div>
+                </footer>
+                <footer class="card-footer">
+                    <div class="card-footer-item"><input class="input" id="state" type="text" placeholder="State(Optional)"></div>
+                    <div class="card-footer-item"><input class="input" id="country" type="text" placeholder="Country(Optional)"></div>
+                </footer>
+                <footer class="card-footer">
+                    <div class="column is-one-third is-offset-4">
+                        <input class="button" type="submit" value="Submit!">
+                    </div>
+                </footer>
+
+            </div>
+
+
+
+        </div>
+    </container>
+</section>
+
+</body>
+</html>
