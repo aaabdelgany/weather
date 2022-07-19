@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const country=document.querySelector('#country');
     const submit=document.querySelector('.button');
 
-    //fetch implementation
+    //fetch implementation.  
     // async function getWeather(wcity,state='',country='',units='imperial'){
         
     //     mainURL=`${endPoint}${wcity},${state},${country}&units=${units}&appid=${apiKey}`
